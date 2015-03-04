@@ -49,12 +49,12 @@
                                              </tr>
                                           </table>
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                             <p>Hi ${inviteePerson.properties["cm:firstName"]!""},</p>
+                                             <p>Olá ${inviteePerson.properties["cm:firstName"]!""},</p>
       
                                              <p>${inviterPerson.properties["cm:firstName"]!""} ${inviterPerson.properties["cm:lastName"]!""} 
                                              convidou você para participar do site  <b>${args["siteName"]}</b> com o papel de ${args["inviteeSiteRole"]}.</p>
                                              
-                                             <p>Clique neste link para aceitar o convite ${inviterPerson.properties["cm:firstName"]!""}'s invitation:<br />
+                                             <p>Clique neste link para aceitar o convite ${inviterPerson.properties["cm:firstName"]!""}'s :<br />
                                              <br /><a href="${args["acceptLink"]}">${args["acceptLink"]}</a></p>
                                              
                                              <#if args["inviteeGenPassword"]?exists>
@@ -70,7 +70,7 @@
                                              <p>Se você quiser rejeitar o convite ${inviterPerson.properties["cm:firstName"]!""}’s , clique neste link:<br />
                                              <br /><a href="${args["rejectLink"]}">${args["rejectLink"]}</a></p>
                                              
-                                             <p>Snceramente,<br />
+                                             <p>Sinceramente,<br />
                                              Alfresco ${productName!""}</p>
                                           </div>
                                        </td>

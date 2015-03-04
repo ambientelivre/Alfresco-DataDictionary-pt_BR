@@ -44,7 +44,7 @@
                                              </tr>
                                           </table>
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                             <p>Hi ${firstname},</p>
+                                             <p>Olá ${firstname},</p>
 
                                              <p>${creator.firstname} ${creator.lastname} foi criada no Alfresco ${productName!""} uma conta para você.</p>
                                              
