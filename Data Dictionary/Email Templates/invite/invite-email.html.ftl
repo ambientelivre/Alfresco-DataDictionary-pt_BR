@@ -40,7 +40,7 @@
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      You have been invited to join the '${args["siteName"]}' site
+                                                      Você foi convidado para participar do site '${args["siteName"]}'
                                                    </div>
                                                    <div style="font-size: 13px;">
                                                       ${date?datetime?string.full}
@@ -52,25 +52,25 @@
                                              <p>Hi ${inviteePerson.properties["cm:firstName"]!""},</p>
       
                                              <p>${inviterPerson.properties["cm:firstName"]!""} ${inviterPerson.properties["cm:lastName"]!""} 
-                                             has invited you to join the <b>${args["siteName"]}</b> site with the role of ${args["inviteeSiteRole"]}.</p>
+                                             convidou você para participar do site  <b>${args["siteName"]}</b> com o papel de ${args["inviteeSiteRole"]}.</p>
                                              
-                                             <p>Click this link to accept ${inviterPerson.properties["cm:firstName"]!""}'s invitation:<br />
+                                             <p>Clique neste link para aceitar o convite ${inviterPerson.properties["cm:firstName"]!""}'s invitation:<br />
                                              <br /><a href="${args["acceptLink"]}">${args["acceptLink"]}</a></p>
                                              
                                              <#if args["inviteeGenPassword"]?exists>
-                                             <p>An account has been created for you and your login details are:<br />
-                                             <br />Username: <b>${args["inviteeUserName"]}</b>
-                                             <br />Password: <b>${args["inviteeGenPassword"]}</b>
+                                             <p>Uma conta foi criada para você e seus detalhes de login são:<br />
+                                             <br />Usuário: <b>${args["inviteeUserName"]}</b>
+                                             <br />Senha: <b>${args["inviteeGenPassword"]}</b>
                                              </p>
                                              
-                                             <p><b>We strongly advise you to change your password when you log in for the first time.</b><br />
-                                             You can do this by going to <b>My Profile</b> and selecting <b>Change Password</b>.</p>
+                                             <p><b>ós aconselhamos que você mude sua senha quando você faz login pela primeira vez.</b><br />
+                                             Você pode fazer isso indo para <b>Meu Perfil</b> e selecionando <b>Alterar Senha</b>.</p>
                                              </#if>
                                              
-                                             <p>If you want to decline ${inviterPerson.properties["cm:firstName"]!""}’s invitation, click this link:<br />
+                                             <p>Se você quiser rejeitar o convite ${inviterPerson.properties["cm:firstName"]!""}’s , clique neste link:<br />
                                              <br /><a href="${args["rejectLink"]}">${args["rejectLink"]}</a></p>
                                              
-                                             <p>Sincerely,<br />
+                                             <p>Snceramente,<br />
                                              Alfresco ${productName!""}</p>
                                           </div>
                                        </td>
@@ -85,7 +85,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 To find out more about Alfresco ${productName!""} visit <a href="http://www.alfresco.com">http://www.alfresco.com</a>
+                                 Para saber mais sobre Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
                               </td>
                            </tr>
                            <tr>
