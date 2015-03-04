@@ -35,7 +35,7 @@
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      Your new Alfresco ${productName!""} account
+                                                      Sua nova conta no Alfresco ${productName!""} 
                                                    </div>
                                                    <div style="font-size: 13px;">
                                                       ${date?datetime?string.full}
@@ -46,20 +46,20 @@
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
                                              <p>Hi ${firstname},</p>
 
-                                             <p>${creator.firstname} ${creator.lastname} has created an Alfresco ${productName!""} account for you.</p>
+                                             <p>${creator.firstname} ${creator.lastname} foi criada no Alfresco ${productName!""} uma conta para você.</p>
                                              
-                                             <p>Click this link to login:<br />
+                                             <p>Clique neste link para entrar:<br />
                                              <br /><a href="${shareUrl}">${shareUrl}</a></p>
                                              
-                                             <p>Your login details are:<br />
-                                             <br />Username: <b>${username}</b>
-                                             <br />Password: <b>${password}</b>
+                                             <p>Detalhes da sua conta:<br />
+                                             <br />Usuário: <b>${username}</b>
+                                             <br />Senha: <b>${password}</b>
                                              </p>
                                              
-                                             <p><b>We strongly advise you to change your password when you login for the first time.</b><br />
-                                             You can do this by going to <b>My Profile</b> and selecting <b>Change Password</b>.</p>
+                                             <p><b>Nós aconselhamos que você mude sua senha quando você entra pela primeira vez.</b><br />
+                                             ocê pode fazer isso indo para <b>Mel Perfil</b> e selecione <b>Alterar Senha</b>.</p>
                                              
-                                             <p>Sincerely,<br />
+                                             <p>Sinceramente,<br />
                                              Alfresco ${productName!""}</p>
                                           </div>
                                        </td>
@@ -74,7 +74,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 To find out more about Alfresco ${productName!""} visit <a href="http://www.alfresco.com">http://www.alfresco.com</a>
+                                 Para saber mais sobre Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
                               </td>
                            </tr>
                            <tr>
