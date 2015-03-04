@@ -12,7 +12,9 @@ Instalação:
  Acesse seu alfresco Share e faça o upload dos arquivos no repositório Data Dictionary respeitando os diretório de origem deste pacote.
 
 Tradução e Customizações:
-Marcio Junior Vieira - Ambiente Livre Tecnologia 
+Marcio Junior Vieira - Ambiente Livre Tecnologia
+
+ 
 Serviços em  Alfresco contate: http://www.ambientelivre.com.br
 
 
