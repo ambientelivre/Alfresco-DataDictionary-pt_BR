@@ -111,7 +111,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 Você pode desativar as notificações, clicando neste link:<br />
+                                 Você pode desativar as notificações clicando neste link:<br />
                                  <br /><a href="${shareUrl}/page/user/${personProps["cm:userName"]}/user-notifications">${shareUrl}/page/user/${personProps["cm:userName"]}/user-notifications</a>
                               </td>
                            </tr>

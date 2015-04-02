@@ -38,13 +38,13 @@
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      ${followerLink} esta seguir você agora.
+                                                      ${followerLink} está seguindo você agora.
                                                    </div>
                                                    <div style="font-size: 13px;">
                                                       <#if followerJobTitle??>${followerJobTitle?html}<br/></#if>
                                                    </div>
                                                    <div style="font-size: 13px;">
-                                                      <#if followingCount &gt; 0><span style="font-weight:bold">${followingCount}</span> Seguidor. </#if><span style="font-weight:bold">${followerCount}</span> Seguidores.
+                                                      <#if followingCount &gt; 0><span style="font-weight:bold">${followingCount}</span> Seguindo. </#if><span style="font-weight:bold">${followerCount}</span> Seguidores.
                                                    </div>
                                                 </td>
                                              </tr>
