@@ -36,9 +36,9 @@
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
                                                       <#if args.workflowPooled == true>
-                                                         Nova Tarefa de Grupo
+                                                         Nova tarefa de grupo
                                                       <#else>
-                                                         Você foi atribuído a uma tarefa
+                                                         Uma tarefa foi atribuída para você
                                                       </#if>
                                                    </div>
                                                    <div style="font-size: 13px;">
@@ -52,9 +52,9 @@
 
                                              <p>
                                                 <#if args.workflowPooled == true>
-                                                   A seguinte tarefa de grupo está disponível para ser reivindicada:
+                                                   A tarefa de grupo a seguir está disponível para ser reinvidicada:
                                                 <#else>
-                                                   Você foi designado para tarefa a seguir:
+                                                   A tarefa a seguir foi atribuída para você:
                                                 </#if>
                                              </p>
                                              
@@ -96,7 +96,7 @@
                                                                            <td><b>${doc.name}</b></td>
                                                                         </tr>
                                                                         <tr>
-                                                                           <td>Clique neste link para fazer o download do documento:</td>
+                                                                           <td>Clique no link para fazer o download do documento:</td>
                                                                         </tr>
                                                                         <tr>
                                                                            <td>
@@ -140,7 +140,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 Para saber mais sobre Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
+                                 Para saber mais sobre o Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
                               </td>
                            </tr>
                            <tr>

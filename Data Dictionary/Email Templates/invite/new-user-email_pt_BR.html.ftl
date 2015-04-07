@@ -35,7 +35,7 @@
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      Sua nova conta no Alfresco ${productName!""} 
+                                                      Sua nova conta no Alfresco ${productName!""}
                                                    </div>
                                                    <div style="font-size: 13px;">
                                                       ${date?datetime?string.full}
@@ -46,7 +46,7 @@
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
                                              <p>Olá ${firstname},</p>
 
-                                             <p>${creator.firstname} ${creator.lastname} foi criada no Alfresco ${productName!""} uma conta para você.</p>
+                                             <p>${creator.firstname} ${creator.lastname} criou uma conta no Alfresco ${productName!""} para você.</p>
                                              
                                              <p>Clique neste link para entrar:<br />
                                              <br /><a href="${shareUrl}">${shareUrl}</a></p>
@@ -56,8 +56,8 @@
                                              <br />Senha: <b>${password}</b>
                                              </p>
                                              
-                                             <p><b>Nós aconselhamos que você mude sua senha quando você entra pela primeira vez.</b><br />
-                                             ocê pode fazer isso indo para <b>Mel Perfil</b> e selecione <b>Alterar Senha</b>.</p>
+                                             <p><b>Nós recomendamos fortemente que você altere a sua senha quando fizer o login pela primeira vez.</b><br />
+                                             Você pode fazer isso indo até <b>Meu Perfil</b> e selecionando <b>Alterar Senha</b>.</p>
                                              
                                              <p>Sinceramente,<br />
                                              Alfresco ${productName!""}</p>
@@ -74,7 +74,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 Para saber mais sobre Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
+                                 Para saber mais sobre o Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
                               </td>
                            </tr>
                            <tr>
