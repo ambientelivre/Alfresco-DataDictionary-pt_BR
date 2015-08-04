@@ -15,11 +15,11 @@ Tradução e Customizações:
 Marcio Junior Vieira - Ambiente Livre Tecnologia
 
 Contribuições :
-  * Douglas C.R. Paes   | https://github.com/douglascrp 
-    Atualizado todos os templates usando como base os arquivos disponíveis no Alfresco 5.0.d.
+| Contribuidor                                      | Resumo                                    | Versão |
+|---------------------------------------------------|-------------------------------------------|--------|
+| Douglas C.R. Paes https://github.com/douglascrp   | Atualizado templates para Alfresco 5.0.d. | 5.0.d  |
+| Daniel Neis Araujo  https://github.com/danielneis | Inclusão de Template de E-mails da 5.0.c  | 5.0.c  |
 
-  * Daniel Neis Araujo  | https://github.com/danielneis
-    - Inclusão de Template de E-mails da Versão 5.0.c
 
 
 
