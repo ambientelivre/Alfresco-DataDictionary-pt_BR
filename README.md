@@ -9,7 +9,9 @@ Lista de Itens traduzidos
 - Email de tarefas de Workflow
 
 Instalação:
- Acesse seu alfresco Share e faça o upload dos arquivos no repositório Data Dictionary respeitando os diretório de origem deste pacote.
+ Acesse seu alfresco Share e faça o upload dos arquivos no repositório Data Dictionary respeitando os diretório de origem deste pacote e a sua versão seguindo o branch deste projeto.
+
+ Atualmente suporte a versão 5.0.c e 5.0.d(master) nos branchs
 
 Projeto Tradução e Customizações:
 Marcio Junior Vieira - Ambiente Livre Tecnologia
