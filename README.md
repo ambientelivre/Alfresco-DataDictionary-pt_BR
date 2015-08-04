@@ -11,12 +11,13 @@ Lista de Itens traduzidos
 Instalação:
  Acesse seu alfresco Share e faça o upload dos arquivos no repositório Data Dictionary respeitando os diretório de origem deste pacote.
 
-Tradução e Customizações:
+Projeto Tradução e Customizações:
 Marcio Junior Vieira - Ambiente Livre Tecnologia
+Blog: http://blogs.ambientelivre.com.br/marcio/
 
 Contribuições :
 
-| Contribuidor                                      | Resumo                                    | Versão |
+| Contribuidores                                    | Resumo                                    | Versão |
 |---------------------------------------------------|-------------------------------------------|--------|
 | Douglas C.R. Paes https://github.com/douglascrp   | Atualizado templates para Alfresco 5.0.d. | 5.0.d  |
 | Daniel Neis Araujo  https://github.com/danielneis | Inclusão de Template de E-mails da 5.0.c  | 5.0.c  |
