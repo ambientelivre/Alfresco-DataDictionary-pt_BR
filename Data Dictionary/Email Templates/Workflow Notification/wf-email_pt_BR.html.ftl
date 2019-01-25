@@ -36,9 +36,9 @@
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
                                                       <#if args.workflowPooled == true>
-                                                         Nova tarefa de grupo
+                                                         Nova tarefa em grupo
                                                       <#else>
-                                                         Uma tarefa foi atribuída para você
+                                                         Uma tarefa foi atribuída à você
                                                       </#if>
                                                    </div>
                                                    <div style="font-size: 13px;">
@@ -54,7 +54,7 @@
                                                 <#if args.workflowPooled == true>
                                                    A tarefa de grupo a seguir está disponível para ser reinvidicada:
                                                 <#else>
-                                                   A tarefa a seguir foi atribuída para você:
+                                                   A tarefa a seguir foi atribuída à você:
                                                 </#if>
                                              </p>
                                              
