@@ -21,6 +21,7 @@ Contribuições :
 
 | Contribuidores                                    | Resumo                                    | Versão |
 |---------------------------------------------------|-------------------------------------------|--------|
+| Silas Araújo https://github.com/Demetriuns        | Atualizado templates para Alfresco 5.2.f  | 5.2.f  |
 | Douglas C.R. Paes https://github.com/douglascrp   | Atualizado templates para Alfresco 5.0.d. | 5.0.d  |
 | Daniel Neis Araujo  https://github.com/danielneis | Inclusão de Template de E-mails da 5.0.c  | 5.0.c  |
 
