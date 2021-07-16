@@ -38,7 +38,7 @@
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      ${followerLink} está seguindo você agora.
+                                                      ${followerLink} Te seguiu.
                                                    </div>
                                                    <div style="font-size: 13px;">
                                                       <#if followerJobTitle??>${followerJobTitle?html}<br/></#if>

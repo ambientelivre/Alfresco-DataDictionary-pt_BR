@@ -1,4 +1,7 @@
 <html>
+   <#assign followerFullName>${followerFirstName} ${followerLastName}</#assign>
+   <#assign followerLink><a href="${shareUrl}/page/user/${followerUserName?url('ISO-8859-1')}/profile">${(followerFullName?trim)?html}</a></#assign>
+
    <head>
       <style type="text/css"><!--
       body
@@ -31,51 +34,26 @@
                                           <table cellpadding="0" cellspacing="0" border="0">
                                              <tr>
                                                 <td>
-                                                   <img src="${shareUrl}/res/components/images/no-user-photo-64.png" alt="" width="64" height="64" border="0" style="padding-right: 20px;" />
+                                                   <img src="${shareUrl}/res/components/images/help-people-bw-64.png" alt="" width="64" height="64" border="0" style="padding-right: 20px;" />
                                                 </td>
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
-                                                      Sua nova conta no Alfresco ${productName!""}
+                                                      ${followerLink} vous suit actuellement.
                                                    </div>
                                                    <div style="font-size: 13px;">
-                                                      ${date?datetime?string.full}
+                                                      <#if followerJobTitle??>${followerJobTitle?html}<br/></#if>
+                                                   </div>
+                                                   <div style="font-size: 13px;">
+                                                      <#if followingCount &gt; 0><span style="font-weight:bold">${followingCount}</span> suivis en cours. </#if><span style="font-weight:bold">${followerCount}</span> suiveurs.
                                                    </div>
                                                 </td>
                                              </tr>
                                           </table>
-                                          <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                             <p>Olá ${firstname},</p>
-
-                                             <p>${creator.firstname} ${creator.lastname} criou uma conta no Alfresco ${productName!""} para você.</p>
-                                             
-                                             <p>Clique neste link para entrar:<br />
-                                             <br /><a href="${shareUrl}">${shareUrl}</a></p>
-                                             
-                                             <p>Detalhes da sua conta:<br />
-                                             <br />Usuário: <b>${username}</b>
-                                             <br />Senha: <b>${password}</b>
-                                             </p>
-                                             
-                                             <p><b>Nós recomendamos fortemente que você altere a sua senha quando fizer o login pela primeira vez.</b><br />
-                                             Você pode fazer isso indo até <b>Meu Perfil</b> e selecionando <b>Alterar Senha</b>.</p>
-                                             
-                                             <p>Sinceramente,<br />
-                                             Alfresco ${productName!""}</p>
-                                          </div>
                                        </td>
                                     </tr>
                                  </table>
                               </td>
                            </tr>
-                           <tr>
-                              <td>
-                                 <div style="border-top: 1px solid #aaaaaa;">&nbsp;</div>
-                              </td>
-                           </tr>
-                           <tr>
-                              <td style="padding: 0px 30px; font-size: 13px;">
-                                 Para saber mais sobre o Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
-                              </td>
                            </tr>
                            <tr>
                               <td>

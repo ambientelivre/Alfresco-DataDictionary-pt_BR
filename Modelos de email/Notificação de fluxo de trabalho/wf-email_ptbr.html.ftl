@@ -36,9 +36,9 @@
                                                 <td>
                                                    <div style="font-size: 22px; padding-bottom: 4px;">
                                                       <#if args.workflowPooled == true>
-                                                         Nova tarefa em grupo
+                                                         New Pooled Task
                                                       <#else>
-                                                         Uma tarefa foi atribuída à você
+                                                         You have been assigned a task
                                                       </#if>
                                                    </div>
                                                    <div style="font-size: 13px;">
@@ -48,33 +48,33 @@
                                              </tr>
                                           </table>
                                           <div style="font-size: 14px; margin: 12px 0px 24px 0px; padding-top: 10px; border-top: 1px solid #aaaaaa;">
-                                             <p>Olá,</p>
+                                             <p>Hi,</p>
 
                                              <p>
                                                 <#if args.workflowPooled == true>
-                                                   A tarefa de grupo a seguir está disponível para ser reinvidicada:
+                                                   The following pooled task is available to be claimed:
                                                 <#else>
-                                                   A tarefa a seguir foi atribuída à você:
+                                                   You have been assigned the following task:
                                                 </#if>
                                              </p>
                                              
-                                             <p><b>"${args.workflowTitle}"</b></p>
+                                             <p><b>"${args.workflowTitle?html}"</b></p>
                                              
                                              <#if (args.workflowDescription)??>                                             
-                                             	<p>${args.workflowDescription}</p>                                             
+                                             	<p>${args.workflowDescription?html}</p>                                             
                                              </#if>
                                              
                                              <p>
-                                                <#if (args.workflowDueDate)??>Prazo:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
+                                                <#if (args.workflowDueDate)??>Due:&nbsp;&nbsp;<b>${args.workflowDueDate?date?string.full}</b><br></#if>
                                                 <#if (args.workflowPriority)??>
-                                                   Prioridade:&nbsp;&nbsp;
+                                                   Priority:&nbsp;&nbsp;
                                                    <b>
                                                    <#if args.workflowPriority == 3>
-                                                      Baixa
+                                                      Low
                                                    <#elseif args.workflowPriority == 2>
-                                                      Média
+                                                      Medium
                                                    <#else>
-                                                      Alta
+                                                      High
                                                    </#if>
                                                    </b>
                                                 </#if>
@@ -96,7 +96,7 @@
                                                                            <td><b>${doc.name}</b></td>
                                                                         </tr>
                                                                         <tr>
-                                                                           <td>Clique no link para fazer o download do documento:</td>
+                                                                           <td>Click on this link to download the document:</td>
                                                                         </tr>
                                                                         <tr>
                                                                            <td>
@@ -118,14 +118,14 @@
                                              </#if>
                                              
                                              <#if args.workflowPooled == true>
-                                                <p>Clique neste link para visualizar a tarefa:</p>
+                                                <p>Click this link to view the task:</p>
                                                 <p><a href="${shareUrl}/page/task-details?taskId=${args.workflowId}">${shareUrl}/page/task-details?taskId=${args.workflowId}</a>
                                              <#else>
-                                                <p>Clique neste link para editar a tarefa:</p>
+                                                <p>Click this link to edit the task:</p>
                                                 <p><a href="${shareUrl}/page/task-edit?taskId=${args.workflowId}">${shareUrl}/page/task-edit?taskId=${args.workflowId}</a>
                                              </#if>
                                              
-                                             <p>Sinceramente,<br />
+                                             <p>Sincerely,<br />
                                              Alfresco ${productName!""}</p>
                                           </div>
                                        </td>
@@ -140,7 +140,7 @@
                            </tr>
                            <tr>
                               <td style="padding: 0px 30px; font-size: 13px;">
-                                 Para saber mais sobre o Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
+                                 Para conhecer mais sobre Alfresco ${productName!""} visite <a href="http://www.alfresco.com">http://www.alfresco.com</a>
                               </td>
                            </tr>
                            <tr>
