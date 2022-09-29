@@ -1,6 +1,6 @@
 # Alfresco-DataDictionary-pt_BR
 
-Artefatos do Alfresco traduzidos para português do Brasil.
+Artefatos do Alfresco traduzidos para português do Brasil (pt_BR).
 
 Lista de Itens traduzidos
 - Emails de Convite
